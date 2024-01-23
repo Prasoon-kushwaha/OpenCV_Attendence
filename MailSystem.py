@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def send_email(body, to_email,subject="Attendance is Accepted"):
-    sender_email = "attendance.system.iiitu@gmail.com"
-    sender_password = "ybuvdmuobsaarrzq"
+    sender_email = ""  #set your mail
+    sender_password = ""  #set you password
 
     message = MIMEMultipart()
     message["From"] = sender_email
