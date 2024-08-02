@@ -1,21 +1,79 @@
-# OpenCV_Attendance
+# OpenCV Attendance System
 
-Automating attendance management using OpenCV and MySQL.
+## Overview
+The OpenCV Attendance System is a desktop application that utilizes OpenCV and face recognition technology to manage student attendance. This system provides an efficient and modern approach to attendance taking, eliminating the need for manual processes and ensuring higher accuracy.
 
-## Libraries Used
+## Features
+- **Face Recognition:** Uses OpenCV for detecting and recognizing faces.
+- **Automatic Attendance Marking:** Automatically marks attendance when a student's face is recognized.
+- **User-Friendly Interface:** Simple and intuitive GUI for ease of use.
+- **Student Data Management:** Add and manage student details, including capturing their photos for recognition.
+- **Attendance Records:** View and export attendance records for analysis.
 
+## Prerequisites
+- Python 3.x
+- OpenCV library
+- face_recognition library
+- Tkinter library (usually included with Python installations)
+- CSV module (included with Python standard library)
+
+## Installation
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Prasoon-kushwaha/OpenCV_Attendence.git
+    ```
+2. **Navigate to the project directory:**
+    ```bash
+    cd OpenCV_Attendence
+    ```
+3. **Install the required libraries:**
+    ```bash
+    pip install opencv-python face_recognition
+    ```
+4. **Run the application:**
+    ```bash
+    python main.py
+    ```
+
+## Usage
+1. **Launching the Application:**
+   - Run `main.py` to start the application.
+   - The main window will appear with options to manage attendance and student data.
+
+2. **Managing Students:**
+   - Add new students by entering their details and capturing their photos.
+   - Update existing student records by selecting a student and modifying their details.
+
+3. **Marking Attendance:**
+   - The system will automatically detect and recognize faces, marking attendance for recognized students.
+   - Ensure the camera is properly set up and positioned.
+
+4. **Viewing Attendance Records:**
+   - View attendance records by selecting a date range.
+   - Export attendance data to a CSV file for further analysis.
+
+## Project Structure
+```
+OpenCV_Attendence/
+│
+├── main.py # Entry point for the application
+├── face_recognition.py # Module for face recognition
+├── gui.py # Module for creating the GUI
+├── student_management.py # Module for managing student data
+├── attendance.py # Module for handling attendance
+├── data/
+│ ├── students.csv # CSV file storing student data
+│ └── attendance.csv # CSV file storing attendance records
+├── images/ # Directory storing student photos
+└── README.md # Project README file
+```
+
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgments
 - [OpenCV](https://opencv.org/)
-- [MySQL Connector](https://dev.mysql.com/downloads/connector/python/)
-- [Python SMTP Mail](https://docs.python.org/3/library/smtplib.html)
-- [Tkinter](https://docs.python.org/3/library/tkinter.html)
-- [Pillow](https://pillow.readthedocs.io/)
-
-## Setting Up
-
-### 1. Installation
-
-Make sure you have Python installed on your system. Install the required libraries using:
-and set the path in code to provided python interpretor 
-
-```bash
-pip install opencv-python mysql-connector-python pillow
+- [face_recognition](https://github.com/ageitgey/face_recognition)
