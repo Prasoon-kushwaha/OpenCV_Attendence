@@ -25,7 +25,7 @@ The OpenCV Attendance System is a desktop application that utilizes OpenCV and f
 <img src="/UI_Main/1.png" alt="Main UI" width="600">
 
 ### Additional UI Screens
-<img src="/UI_Main/3.png" alt="Screen 1" width="400"> <img src="/UI_Main/4.png" alt="Screen 2" width="400">
+<img src="/UI_Main/3.png" alt="Screen 1" width="400"> <img src="/UI_Main/4.png" alt="Screen 2" width="200">
 
 ### With Camera Input
 <img src="/UI_Main/5.png" alt="Camera Input" width="600">
@@ -37,7 +37,7 @@ The OpenCV Attendance System is a desktop application that utilizes OpenCV and f
 <img src="/UI_Main/6.png" alt="Database" width="600">
 
 ### Email Alerts
-<img src="/UI_Main/7.png" alt="Email Alerts" width="600">
+<img src="/UI_Main/7.png" alt="Email Alerts" width="300">
 
 ## Installation
 1. **Clone the repository:**
