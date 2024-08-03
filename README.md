@@ -17,29 +17,27 @@ The OpenCV Attendance System is a desktop application that utilizes OpenCV and f
 - Tkinter library (usually included with Python installations)
 - CSV module (included with Python standard library)
 
-
 ## Flow Diagram
-![Flow Diagram](/UI_Main/2.png)
+<img src="/UI_Main/2.png" alt="Flow Diagram" width="400">
 
 ## User Interface
 ### Main UI
-![Main UI](/UI_Main/1.png)
+<img src="/UI_Main/1.png" alt="Main UI" width="600">
 
 ### Additional UI Screens
-![Screen 1](/UI_Main/3.png) ![Screen 2](/UI_Main/4.png)
+<img src="/UI_Main/3.png" alt="Screen 1" width="400"> <img src="/UI_Main/4.png" alt="Screen 2" width="400">
 
 ### With Camera Input
-![Camera Input](/UI_Main/5.png)
+<img src="/UI_Main/5.png" alt="Camera Input" width="600">
 
 ### UI with Student Details
-![Student Details](/UI_Main/5a.png)
+<img src="/UI_Main/5a.png" alt="Student Details" width="600">
 
 ### MySQL Database
-![Database](/UI_Main/6.png)
+<img src="/UI_Main/6.png" alt="Database" width="600">
 
 ### Email Alerts
-![Email Alerts](/UI_Main/7.png)
-
+<img src="/UI_Main/7.png" alt="Email Alerts" width="600">
 
 ## Installation
 1. **Clone the repository:**
