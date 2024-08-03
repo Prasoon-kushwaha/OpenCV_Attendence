@@ -90,7 +90,7 @@ OpenCV_Attendence/
 └── README.md # Project README file
 ```
 ### Email Alerts
-<img src="/UI_Main/str.png" alt="Email Alerts" width="500">
+<img src="/UI_Main/str.png" alt="Email Alerts" width="700">
 
 ## Contributing
 Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
